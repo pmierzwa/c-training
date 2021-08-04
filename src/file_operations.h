@@ -9,6 +9,9 @@
     #include <fstream>
     #include <string>
 
+    // namespace
+    using namespace std;
+
     // Functions
     void csvread(std::string filename);
 

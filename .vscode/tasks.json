@@ -4,7 +4,7 @@
         {
             "label": "Build Main",
             "type": "shell",
-            "command": "g++ -g main.cpp src/file_operations.cpp -o main.out",
+            "command": "g++ -g main.cpp src/*.cpp -o main.out -lpthread",
             "group": {
                 "kind": "build",
                 "isDefault": true
